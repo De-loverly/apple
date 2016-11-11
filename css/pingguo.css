@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #ccc;
+}
+img{
+	border:0;
+}
+@font-face {
+	font-family:"iconfont";
+}
+.iconfont{
+	font-family: "iconfont";
+}
+body{
+	background: #000;
+}
+.htop{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.htop div{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.htop div a{
+	float: right;
+}
+.head-box{
+	/*background: #1E1E1E;*/
+	width: 100%;
+	height: auto;
+	/*height: auto;*/
+	overflow: hidden;
+	position: relative;
+}
+.hidden{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background: #000;
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+	text-align: center;
+	display: none;
+}
+.hidden .iconfont{
+	font-size: 18px;
+	color: #fff;
+}
+.hidden .zuo{
+	float: left;
+}
+.hidden .zhong{
+	float: left;
+	margin-left: 46%;
+}
+.hidden .you{
+	float: right;
+}
+.head-box .h{
+	width: 100%;
+	background:#1E1E1E ;
+	position: relative;
+	z-index: 10;
+}
+.head{
+	width: 80%;
+	height: 44px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #1E1E1E;
+	position: relative;
+	z-index: 10;
+}
+.head .nav{
+	/*width: 40px;*/
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	float: left;
+	margin-left: 7%;
+}
+.head .nav a{
+	color: #fff;
+	font-size: 18px;
+}
+.head .nav a:hover{
+	color: #ddd;
+}
+.iphone{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+.iphone h1{
+	position: relative;
+	z-index: 10;
+	color: #fff;
+	margin-top: 10px;
+}
+.iphone .yi{
+	position: relative;
+	z-index: 10;
+}
+.iphone .banner{
+	width: 60%;
+	/*position: absolute;
+	left: 320px;
+	top: -50px;*/
+}
+.ban{
+	width: 100%;
+	height: auto;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	overflow: hidden;
+}
+.ban .bans{
+	width: 25%;
+	height: 200px;
+	box-sizing: border-box;
+	border-right: 2px solid #fff;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.bans:nth-of-type(1){
+	background: #000;
+}
+.bans:nth-of-type(2){
+	background: linear-gradient(to top,#F2F2F2,#FAFAFA);
+}
+.bans:nth-of-type(3){
+	background:#F2F2F2;
+}
+.bans:nth-of-type(4){
+	background: linear-gradient(to top,#ececec,#fff);
+}
+@media  screen and (min-width: 1000px) {
+	.ban{
+		width: 100%;
+	}
+	.ban .bans{
+		width: 25%;
+	}
+}
+@media  screen and (max-width: 1000px) and (min-width:600px){
+	.ban{
+		width: 100%;
+	}
+	.ban .bans{
+		width: 50%;
+	}
+}
+@media  screen and (max-width: 600px) {
+	.ban{
+		width: 100%;
+	}
+	.ban .bans{
+		width: 100%;
+	}
+}
+.footer{
+	width: 100%;
+	height: auto;
+	background: #F2F2F2;
+	font-size: 12px;
+}
+.footer .foot-top{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #E3E3E3;
+	color: #bbb;
+	line-height: 50px;
+	font-size: 12px;
+	white-space: nowrap;
+}
+.foot{
+	width: 80%;
+	height:auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.foot .nei{
+	width: 20%;
+	height: auto;
+	box-sizing: border-box;
+	float: left;
+}
+.foot .nei a{
+	display: block;
+	color: #38333E;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.foot .nei .one{
+	font-weight: bold;
+}
+.footer .bottom{
+	width: 80%;
+	margin: 0 auto;
+	/*margin-bottom: 10px;*/
+	margin-top: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+@media  screen and (min-width: 1000px) {
+	
+}
+@media  screen and (max-width: 1000px) and (min-width:750px){
+	
+}
+@media  screen and (max-width: 750px) {
+	.head{
+		width: 700px;
+	}
+	.head .nav{
+		display: none;
+	}
+	.hidden{
+		display: block;
+	}
+	.foot .nei{
+		width: 100%;
+		/*margin-top: 20px;*/
+		line-height: 30px;
+		border-bottom: 1px solid #ddd;
+	}
+	.foot .nei a{
+		display: none;
+		width: 100%;
+	}
+	.foot .nei .one{
+		display: block;
+	}
+}
